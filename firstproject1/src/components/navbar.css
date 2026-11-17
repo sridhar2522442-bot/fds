@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  min-height: 52px;
+  padding: 0 16px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.navbar a {
+  color: #444;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+@media (max-width: 430px) {
+  .navbar {
+    gap: 20px;
+  }
+
+  .navbar a {
+    font-size: 12px;
+  }
+}
